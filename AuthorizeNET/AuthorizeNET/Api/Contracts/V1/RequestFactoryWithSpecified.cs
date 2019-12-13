@@ -399,9 +399,6 @@
         {
             if (null != argument)
             {
-                if (argument.discountAmount >= 0) { argument.discountAmountSpecified = true; }
-                if (argument.taxIsAfterDiscount) { argument.taxIsAfterDiscountSpecified = true; }
-                if (null != argument.purchaseOrderDateUTC) { argument.purchaseOrderDateUTCSpecified = true; }
             }
         }
         public static void orderExType(orderExType argument)
